@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/09/28 08:13:10.000.104,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/09/28 08:13:10.000.385,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2016/09/28 08:13:43.000.708,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/09/28 08:13:43.000.536,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/09/28 08:13:43.000.755,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2016/10/05 15:50:04.000.800,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/05 15:50:04.000.879,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/10/05 15:50:04.000.957,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2016/10/05 15:50:51.000.522,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2016/10/05 15:50:51.000.491,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/10/27 13:24:49.000.011,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/27 13:25:19.000.913,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2016/10/27 13:25:19.000.850,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2016/10/27 13:26:37.000.074,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Client\uPrincipal.pas=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2016/10/27 13:26:37.000.074,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Client\uPrincipal.fmx=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2016/10/27 13:26:42.000.578,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Client\uClientClasses.pas=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2016/10/27 13:26:46.000.452,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Client\uClientModule.pas=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2016/10/27 13:26:46.000.452,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Client\uClientModule.dfm=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\ClientModuleUnit1.dfm</Transaction>
+    <Transaction>2016/10/27 13:26:49.000.952,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Client\Client.dproj=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2016/10/27 13:55:54.000.730,=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Client\Unit1.pas</Transaction>
+    <Transaction>2016/10/27 14:10:42.000.211,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Cliente\Client.dproj=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Cliente\Cliente.dproj</Transaction>
+    <Transaction>2016/10/27 16:32:35.000.660,=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Cliente\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

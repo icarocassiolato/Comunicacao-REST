@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/27 10:36:38.000.726,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\WebModuleUnit1.pas</Transaction>
+    <Transaction>2016/10/27 10:36:38.000.835,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\js\ServerFunctionExecutor-min.js</Transaction>
+    <Transaction>2016/10/27 10:36:38.000.804,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\js\json2.js</Transaction>
+    <Transaction>2016/10/27 10:36:38.000.835,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\js\CallbackFramework-min.js</Transaction>
+    <Transaction>2016/10/27 10:36:38.000.804,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\js\CallbackFramework.js</Transaction>
+    <Transaction>2016/10/27 10:36:38.000.820,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\js\base64-min.js</Transaction>
+    <Transaction>2016/10/27 10:36:38.000.820,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\js\ServerFunctions.js</Transaction>
+    <Transaction>2016/10/27 10:36:38.000.788,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\js\ServerFunctionExecutor.js</Transaction>
+    <Transaction>2016/10/27 10:36:38.000.632,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2016/10/27 10:36:38.000.820,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\js\json2-min.js</Transaction>
+    <Transaction>2016/10/27 10:36:38.000.788,=C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\js\base64.js</Transaction>
+    <Transaction>2016/10/27 10:44:26.000.860,C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\ServerMethodsUnit1.dfm=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\uMetodosServidor1.dfm</Transaction>
+    <Transaction>2016/10/27 10:44:26.000.860,C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\ServerMethodsUnit1.pas=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\uMetodosServidor1.pas</Transaction>
+    <Transaction>2016/10/27 10:44:45.000.933,C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\WebModuleUnit1.pas=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\uWebModule.pas</Transaction>
+    <Transaction>2016/10/27 10:44:45.000.933,C:\Users\icaro.cassiolato\Documents\Embarcadero\Studio\Projects\Project3\WebModuleUnit1.dfm=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\uWebModule.dfm</Transaction>
+    <Transaction>2016/10/27 10:46:08.000.509,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Servidorgenerico.dproj=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Project3.dproj</Transaction>
+    <Transaction>2016/10/27 10:46:21.000.497,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\ServidorGenericoComAutenticacao.dproj=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Servidorgenerico.dproj</Transaction>
+    <Transaction>2016/10/27 11:00:11.000.889,=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Unit1.pas</Transaction>
+    <Transaction>2016/10/27 11:00:44.000.412,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Unit1.pas=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\uMetodosServidor2.pas</Transaction>
+    <Transaction>2016/10/27 11:00:44.000.412,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Unit1.dfm=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\uMetodosServidor2.dfm</Transaction>
+    <Transaction>2016/10/27 16:32:50.000.660,=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Servidor\Unit1.pas</Transaction>
+    <Transaction>2016/10/27 16:32:58.000.536,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Servidor\Unit1.pas=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Servidor\uFuncoes.pas</Transaction>
+    <Transaction>2016/10/27 16:35:18.000.100,=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Servidor\Unit1.pas</Transaction>
+    <Transaction>2016/10/27 16:35:25.000.397,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Servidor\Unit1.pas=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Servidor\uIni.pas</Transaction>
+    <Transaction>2016/10/27 17:07:08.000.239,=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Servidor\Unit1.pas</Transaction>
+    <Transaction>2016/10/27 17:07:26.000.074,C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Servidor\Unit1.pas=C:\Users\icaro.cassiolato\Desktop\Testes\Servidor ISAPI com autenticação\Servidor\uQueryHelper.pas</Transaction>
+  </Transactions>
+</BorlandProject>

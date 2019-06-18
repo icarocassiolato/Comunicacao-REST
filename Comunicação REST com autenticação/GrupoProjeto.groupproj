@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{543CC5DD-68F0-4130-8F5F-488966F5D373}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Cliente\Cliente.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Servidor\ServidorGenericoComAutenticacao.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Cliente">
+        <MSBuild Projects="Cliente\Cliente.dproj"/>
+    </Target>
+    <Target Name="Cliente:Clean">
+        <MSBuild Projects="Cliente\Cliente.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Cliente:Make">
+        <MSBuild Projects="Cliente\Cliente.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ServidorGenericoComAutenticacao">
+        <MSBuild Projects="Servidor\ServidorGenericoComAutenticacao.dproj"/>
+    </Target>
+    <Target Name="ServidorGenericoComAutenticacao:Clean">
+        <MSBuild Projects="Servidor\ServidorGenericoComAutenticacao.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ServidorGenericoComAutenticacao:Make">
+        <MSBuild Projects="Servidor\ServidorGenericoComAutenticacao.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Cliente;ServidorGenericoComAutenticacao"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Cliente:Clean;ServidorGenericoComAutenticacao:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Cliente:Make;ServidorGenericoComAutenticacao:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
