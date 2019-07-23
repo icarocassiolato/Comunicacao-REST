@@ -1,0 +1,14 @@
+*.~*
+*.dcu
+*.dproj*
+*.identcache
+*.exe
+*.res
+*.rc
+*.local
+*.dres
+*.dsk
+Comunicação REST com autenticação/Servidor/ServidorGenericoComAutenticacao.identcache
+*.identcache
+*.local
+Comunicação REST com autenticação/GrupoProjeto.groupproj.local

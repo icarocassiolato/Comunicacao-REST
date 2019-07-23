@@ -100,6 +100,7 @@ object WebModule1: TWebModule1
       'Database=COFFEEREGISTERDB'
       'DriverID=PG')
     LoginPrompt = False
+    BeforeConnect = ConexaoBeforeConnect
     Left = 311
     Top = 96
   end

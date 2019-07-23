@@ -4,17 +4,21 @@ interface
 
 uses System.SysUtils, System.Classes, System.Json,
     Datasnap.DSServer, Datasnap.DSAuth, DataSnap.DSProviderDataModuleAdapter,
-    Data.FireDACJSONReflect, FireDAC.Comp.Client;
+    Data.FireDACJSONReflect, FireDAC.Comp.Client, FireDAC.Stan.Intf,
+  FireDAC.Stan.Option, FireDAC.Stan.Param, FireDAC.Stan.Error, FireDAC.DatS,
+  FireDAC.Phys.Intf, FireDAC.DApt.Intf, FireDAC.Stan.Async, FireDAC.DApt,
+  Data.DB, FireDAC.Comp.DataSet;
 
 type
 {$METHODINFO ON}
   TMetodosServidor1 = class(TDataModule)
+    qUsuario: TFDQuery;
   private
     { Private declarations }
   public
     { Public declarations }
-    procedure ApplyChanges(nomeQuery: string; const ADeltaList: TFDJSONDeltas);
-    function GetQuery(nomeQuery: String): TFDJSONDataSets;
+    procedure ApplyChanges(psNomeQuery: string; const ADeltaList: TFDJSONDeltas);
+    function GetQuery(psNomeQuery, psTabela: string; psCondicao: string = ''): TFDJSONDataSets;
     function EchoString1(Value: string): string;
   end;
 {$METHODINFO OFF}
@@ -27,15 +31,15 @@ implementation
 
 uses System.StrUtils, uQueryHelper;
 
-procedure TMetodosServidor1.ApplyChanges(nomeQuery: string; const ADeltaList: TFDJSONDeltas);
+procedure TMetodosServidor1.ApplyChanges(psNomeQuery: string; const ADeltaList: TFDJSONDeltas);
 begin
-  uQueryHelper.ApplyChanges(TFDQuery(FindComponent(TFDJSONDeltasReader.GetListValue(ADeltaList, 0).Table.Name)),
+  uQueryHelper.ApplyChanges(FindComponent(TFDJSONDeltasReader.GetListValue(ADeltaList, 0).Table.Name),
                             ADeltaList);
 end;
 
-function TMetodosServidor1.GetQuery(nomeQuery: String): TFDJSONDataSets;
+function TMetodosServidor1.GetQuery(psNomeQuery, psTabela: string; psCondicao: string = ''): TFDJSONDataSets;
 begin
-  Result := uQueryHelper.GetQuery(TFDQuery(FindComponent(nomeQuery)));
+  Result := uQueryHelper.GetQuery(FindComponent(psNomeQuery));
 end;
 
 function TMetodosServidor1.EchoString1(Value: string): string;

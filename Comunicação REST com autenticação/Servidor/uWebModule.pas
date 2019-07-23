@@ -11,8 +11,12 @@ uses
   Datasnap.DSServerMetadata, Datasnap.DSClientMetadata, Datasnap.DSCommonServer,
   Datasnap.DSHTTP, FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Error,
   FireDAC.UI.Intf, FireDAC.Phys.Intf, FireDAC.Stan.Def, FireDAC.Stan.Pool,
-  FireDAC.Stan.Async, FireDAC.Phys, FireDAC.Phys.PG, FireDAC.Phys.PGDef,
-  Data.DB, FireDAC.Comp.Client;
+  FireDAC.Stan.Async, FireDAC.Phys, Data.DB, FireDAC.Comp.Client,
+  //PG
+  FireDAC.Phys.PG, FireDAC.Phys.PGDef,
+  //FB
+  FireDAC.Phys.FB, FireDAC.Phys.FBDef
+  ;
 
 type
   TWebModule1 = class(TWebModule)
@@ -40,6 +44,7 @@ type
     procedure DSServerClass2GetClass(DSServerClass: TDSServerClass;
       var PersistentClass: TPersistentClass);
     procedure WebModuleCreate(Sender: TObject);
+    procedure ConexaoBeforeConnect(Sender: TObject);
   private
     { Private declarations }
   public
@@ -55,8 +60,7 @@ implementation
 
 {$R *.dfm}
 
-uses uMetodosServidor1, Web.WebReq, System.IOUtils, uMetodosServidor2,
-  uFuncoes, uIni;
+uses uMetodosServidor1, Web.WebReq, System.IOUtils, uMetodosServidor2, uIni;
 
 procedure TWebModule1.WebModule1DefaultHandlerAction(Sender: TObject;
   Request: TWebRequest; Response: TWebResponse; var Handled: Boolean);
@@ -82,6 +86,11 @@ procedure TWebModule1.DSServerClass2GetClass(DSServerClass: TDSServerClass;
   var PersistentClass: TPersistentClass);
 begin
   PersistentClass := uMetodosServidor2.TMetodosServidor2;
+end;
+
+procedure TWebModule1.ConexaoBeforeConnect(Sender: TObject);
+begin
+  Conexao.Params.LoadFromFile(CaminhoIni);
 end;
 
 procedure TWebModule1.DSAuthenticationManager1UserAuthenticate(
