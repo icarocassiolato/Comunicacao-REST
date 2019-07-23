@@ -5,7 +5,7 @@ interface
 uses
   System.SysUtils, Data.FireDACJSONReflect, FireDAC.Comp.Client, Classes;
 
-  function GetQuery(poQuery: TComponent): TFDJSONDataSets;
+  function GetQuery(poQuery: TComponent; psCondicao: string): TFDJSONDataSets;
   procedure ApplyChanges(poQuery: TComponent; const ADeltaList: TFDJSONDeltas);
 
 implementation
@@ -29,7 +29,7 @@ begin
     raise Exception.Create(LApply.Errors.Strings.Text);
 end;
 
-function GetQuery(poQuery: TComponent): TFDJSONDataSets;
+function GetQuery(poQuery: TComponent; psCondicao: string): TFDJSONDataSets;
 begin
   Result := TFDJSONDataSets.Create;
 

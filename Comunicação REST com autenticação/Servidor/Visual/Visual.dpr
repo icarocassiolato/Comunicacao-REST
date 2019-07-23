@@ -1,7 +1,7 @@
 program Visual;
 {$APPTYPE GUI}
 
-{$R *.dres}
+
 
 uses
   FMX.Forms,
